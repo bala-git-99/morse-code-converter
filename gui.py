@@ -15,7 +15,7 @@ window.title("Morse Code Converter")
 window.config(pady=50, padx=50)
 
 canvas = tkinter.Canvas(width=200, height=200, )
-morse_png = tkinter.PhotoImage(file="morse.png")
+morse_png = tkinter.PhotoImage(file="./morse.png")
 canvas.pack(expand=YES, fill=BOTH)
 canvas.create_image(0, 0, image=morse_png, anchor=NW)
 canvas.grid(row=0, column=0)
